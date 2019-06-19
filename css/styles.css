@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: black;
+}
+.link {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	display: block;
+	color: gray;
+
+}
+.link:hover {
+	color: #cc0000;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.home {
+	float: left;
+	margin-left: 70px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-size: 20px;
+}
+.ui {
+	float: right;
+	margin-right: 70px;
+}
+.project {
+	float: left;
+	margin-left: 70px;
+}
+.interaction {
+	float: right;
+	margin-right: 70px;
+}
+.info {
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center center;
+}
+
+.navbar1 {
+	float: left;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	margin-top: 50px;
+}
+.navbar2 {
+	width: 100%;
+	height: 40px;
+	margin-top: 630px;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+}
+.box {
+	width: 50%;
+	height: 40px;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 0;
+	background-color: blue;
+	text-align: center;
+}
+/*.bg {
+	background-image: url("https://media2.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif?cid=790b76115d049e114856463563656617&rid=giphy.gif");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 850px;
+}*/
+.gif1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.helper {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.big {
+	width: 100%;
+	height: 750px;
+	text-align: center;
+}
+.content {
+	width: 100%;
+	height: 800px;
+	text-align: center;
+}
+.content h2 {
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 70px;
+	font-weight: thin;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -200px;
+}
+.content h2:hover {
+	color: black;
+	font-size: 85px;
+	background-color: red;
+}
+.footer {
+	background-color: #191919;
+	height: 150px;
+	text-align: center;
+	margin-top: 80px;
+}
+.link-container{
+	display: inline-block;
+	vertical-align: middle;
+	color: gray;
+}
+.link-container h2{
+	font-size: 15px;
+	}
+.link-container p{
+	margin-top: 10px;
+	font-size: 13px;
+	}
+.helper{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}

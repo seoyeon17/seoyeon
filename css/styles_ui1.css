@@ -1,0 +1,373 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: black;
+}
+.link {
+	text-decoration: none;
+	color: gray;
+	font-size: 16px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	display: block;
+}
+.link:hover {
+	color: #cc0000;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link2 {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	width: 250px;
+	text-align: center;
+	display: block;
+}
+.link2:hover {
+	color: #cc0000;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.close {
+	float: left;
+	margin-left: 70px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-size: 20px;
+}
+.view {
+	float: right;
+	margin-right: 70px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+.info {
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center center;
+}
+
+.navbar1 {
+	float: left;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	margin-top: 50px;
+}
+.navbar2 {
+	width: 100%;
+	height: 40px;
+	margin-top: 630px;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+}
+.box {
+	width: 50%;
+	height: 40px;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 0;
+	background-color: blue;
+	text-align: center;
+}
+/*.bg {
+	background-image: url("https://cdn.pixabay.com/photo/2019/04/26/17/47/color-4158152_1280.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 850px;
+}*/
+.content {
+	text-align: center;
+	background-image: url("../images/oven/pizza.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 800px;
+}
+.content_inside {
+	height: 800px;
+	width: 1000px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.content .text {
+	height: 300px;
+	width: 500px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.content img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 80px;
+	position: absolute;
+	top: 200px;
+}
+.content h3 {
+	color: #b03200;
+	font-size: 29px;
+}
+.content h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 70px;
+	color: white;
+}
+.content p{
+	color: #fff6e1;
+	font-size: 20px;
+}
+/*.content p:nth-child(2){
+	color: pink;
+	font-size: 15px;
+	font-family: 'Great Vibes', cursive;
+	margin-top: 20px;
+}*/
+/*--------content1---------*/
+.content1 {
+	background-color: #c48a00;
+	text-align: center;
+	width: 100%;
+	height: 1300px;
+}
+.content1_inside {
+	height: 1000px;
+	width: 1100px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.content1 .text {
+	height: 250px;
+	width: 600px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.content1 img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 80px;
+}
+.content1 h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	color: white;
+}
+.content1 .text p{
+	color: #fff6e1;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.iconbox{
+	clear: left;
+	text-align: center;
+}
+
+.iconbox img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.icon p {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+}
+/*---------content2--------*/
+.content2 {
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	height: 1600px;
+}
+.content2_inside {
+	height: 1400px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.content2 .text {
+	height: 150px;
+	width: 600px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.content2 h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	color: #c48a00;
+}
+.content2 .text p{
+	color: #606060;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.content2 .iconbox{
+	clear: left;
+	text-align: center;
+	margin-top: 100px;
+}
+.content2 img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.content2 p {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+}
+/*-------content3-------*/
+.content3 {
+	text-align: center;
+	background-color: #c48a00;
+	width: 100%;
+	height: 900px;
+}
+.content3_inside {
+	height: 800px;
+	width: 1200px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content3 .text {
+	height: 250px;
+	width: 500px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.content3 .phonebox {
+	display: inline-block;
+	vertical-align: middle;
+}
+.content3 h3 {
+	font-family: 'Kaushan Script', cursive;
+	color: #c02a00;
+	font-size: 80px;
+	margin-bottom: -20px;
+	display: inline-block;
+}
+.content3 h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+}
+.content3 .text p{
+	font-family: 'Raleway', sans-serif;
+	color: #fff6e1;
+	font-size: 20px;
+	line-height: 29px;
+	margin-top: 20px;
+}
+/*-------content4-------*/
+.content4 {
+	text-align: center;
+	background-color: #c02a00;
+	width: 100%;
+	height: 900px;
+}
+.content4_inside {
+	height: 800px;
+	width: 1200px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content4 .text {
+	height: 250px;
+	width: 600px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.content4 .phonebox {
+	display: inline-block;
+	vertical-align: middle;
+}
+.content4 h3 {
+	font-family: 'Kaushan Script', cursive;
+	color: #c48a00;
+	font-size: 80px;
+	margin-bottom: -20px;
+	display: inline-block;
+}
+.content4 h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 33px;
+	color: white;
+	display: inline-block;
+	margin-left: 20px;
+}
+.content4 .text p{
+	font-family: 'Raleway', sans-serif;
+	color: #fff6e1;
+	font-size: 20px;
+	line-height: 29px;
+	margin-top: 20px;
+}
+/*---------content5--------*/
+.content5 {
+	text-align: center;
+	background-color: #381a00;
+	width: 100%;
+	height: 900px;
+}
+.content5_inside {
+	height: 400px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content5 h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	color: #e6a200;
+	margin-bottom: 50px;
+}
+/*-------footer-------*/
+.footer {
+	background-color: #191919;
+	height: 150px;
+	text-align: center;
+}
+.link-container{
+	display: inline-block;
+	vertical-align: middle;
+	color: gray;
+}
+.link-container h2{
+	font-size: 15px;
+	}
+.link-container p{
+	margin-top: 10px;
+	font-size: 13px;
+	}
+.helper{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
