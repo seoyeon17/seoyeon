@@ -152,7 +152,7 @@ body {
 }
 .content2 .text {
 	height: 200px;
-	width: 600px;
+	width: 650px;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
@@ -163,9 +163,9 @@ body {
 	vertical-align: middle;
 }
 .content2 h2 {
-	font-family: 'Leckerli One', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 40px;
-	color: #274991;
+	color: #009933;
 }
 .content2 p{
 	color: #4a4a4a;
