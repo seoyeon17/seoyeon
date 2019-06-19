@@ -127,14 +127,14 @@ body {
 	font-size: 20px;
 }
 .content_inside:hover {
-	background-image: url("../images/oven/pizza1.png");
+	background-image: url("../images/game/bread1.png");
 	background-size: cover;
 	background-position: center center;
 }
 .content .name {
 	font-family: 'Allura', cursive;
 	color: #4c4c4c;
-	margin-right: -270px;
+	margin-right: -320px;
 	margin-top: -29px;
 }
 .content .name:hover {

@@ -94,7 +94,7 @@ body {
 }*/
 .content {
 	text-align: center;
-	background-image: url("../images/foofil/fruit.jpg");
+	background-image: url("../images/game/bread.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -111,7 +111,7 @@ body {
 	width: 500px;
 	display: inline-block;
 	vertical-align: middle;
-	text-align: left;
+	text-align: center;
 }
 .content img {
 	display: inline-block;
